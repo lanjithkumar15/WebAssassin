@@ -1,0 +1,25 @@
+{
+    "location": {
+        "city": "Madurai",
+        "region": "Tamil Nadu",
+        "country": "IN",
+        "timeZone": "Asia/Kolkata"
+    },
+    "userAgent": "Chrome Browser",
+    "operatingSystem": "Linux",
+    "languages": [
+        "en-GB",
+        "en-US",
+        "en",
+        "ta"
+    ],
+    "deviceType": "Desktop",
+    "orientationInfo": "It is in portrait mode",
+    "ipInfo": {
+        "ip": "157.46.69.217",
+        "organization": "AS55836 Reliance Jio Infocomm Limited"
+    },
+    "memory": 8,
+    "browserVersion": "118.0.0.0",
+    "screenResolution": "1366X768"
+}
