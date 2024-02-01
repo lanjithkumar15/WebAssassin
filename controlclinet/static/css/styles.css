@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #4d1e1e;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: #0f0f0f;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.input-group {
+    flex-direction: column;
+}
+
+.input-group label {
+    margin-bottom: 5px;
+}
+
+.input-group input {
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #755656;
+}
+
+.input-group input[type="password"] {
+    margin-bottom: 20px;
+}
+
+.label {
+    color: white;
+}
+
+body {
+    background-image: url('/static/img/amazon.jpeg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

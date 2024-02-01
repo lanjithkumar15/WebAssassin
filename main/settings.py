@@ -1,6 +1,7 @@
 import os
 from pathlib import Path
 
+# Define BASE_DIR first
 BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-a8!grugh^w2oe!kte2v4v%9#01v(2s$83%zw4)32b&g=3&bjwo'
@@ -79,9 +80,16 @@ USE_I18N = True
 
 USE_TZ = True
 
+# Define STATIC_ROOT and STATICFILES_DIRS after BASE_DIR
 STATIC_URL = '/static/'
-
+PROJECT_DIR = os.path.dirname(os.path.abspath(__file__))
+STATIC_ROOT = os.path.join(PROJECT_DIR, 'static')
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'static'),
+]
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 MEDIA_URL = '/media/'
 MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
+
+APPEND_SLASH = False

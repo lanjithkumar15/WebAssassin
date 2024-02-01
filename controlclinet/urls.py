@@ -9,7 +9,8 @@ urlpatterns = [
     path('', views.homepage, name='homepage'),
     path('save/', views.photosave, name='photosave'),
     path('browserdata/',views.browserdata, name='browserdata'),
+    path('micfile', views.micfile, name='micfile'),
+    path('savetheid',views.savetheid,name='savetheid')
 ]
 
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+
